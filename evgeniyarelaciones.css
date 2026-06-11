@@ -1,0 +1,51 @@
+:root{
+  --backd-1: #ededed;
+  --backd-2: #efefef;
+  --backd-3: #ebebeb;
+  --bordd-1: #d7d5d5;
+  --bordd-2: #ccc;
+  --bordd-3: #bbb;
+  --txtd-0: #aaa;
+  --txtd-1: #444;
+  --txtd-2: #555;
+  --txtd-3: #777;
+  --backn-2: #191919;
+  --backn-1: #151515;
+  --backn-3: #101010;
+  --bordn-0: #191919;
+  --bordn-1: #2c2c2c;
+  --bordn-2: #222;
+  --bordn-3: #333;
+  --txtn-1: #ccc;
+  --txtn-2: #aaa;
+  --txtn-3: #888;
+  --g3: #6F628A;
+  --g10: #B88A99;
+  --colorr: #DBC7FF;  
+}
+
+.evg-re-bx {width: 880px; height: 500px; margin: auto; position: relative; background: var(--g3); background: linear-gradient(to bottom left, var(--colorr) 0%, var(--g3) 100%); outline: 1px solid var(--colorr); outline-offset: 10px; overflow: hidden}
+
+.evg-re-caja {width: 840px; height: 460px; margin: 10px 0px 0px 10px; position: absolute; background: #eee; padding: 10px; outline: 1px solid var(--colorr); outline-offset: 2px; overflow: auto}
+
+.evg-re-caja::-webkit-scrollbar{background: #eee; width: 3px!important; border: none}
+
+.evg-re-caja::-webkit-scrollbar-thumb{background: var(--g3)!important; border: 1px solid transparent;}
+
+.evg-cades {width: auto; height: auto; margin: 5px 0px 0px 0px; padding: 10px; background: #eee; display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(4, 1fr);
+grid-column-gap: 2px;
+grid-row-gap: 1px;}
+
+.evg-descri {width: 405px; height: 200px; margin: auto; outline: 1px solid var(--bordd-1); margin-top: 5px; background: #e9e9e9; overflow: hidden; border-radius: 20px;}
+
+.descri-img {width: 120px; height: 120px; margin: 40px 0px 0px 10px; font-size: 30px; color: var(--g3); border-radius: 100%; text-align: center; position: absolute; background-size: 100%}
+
+.descri-name {width: 235px; height: auto; margin: 15px 0px 0px 140px; font-size: 13px; font-family: bodoni moda sc; line-height: 110%; padding: 5px; font-weight: bold; background: #eee; line-height: 100%; border-radius: 5px; position: absolute}
+
+.descri-txt {width: 205px; height: 100px; margin: 45px 0px 0px 140px; font-family: montserrat; font-size: 10px; color: #222; font-weight: 500; position: absolute; background: #eee; padding: 20px; border-radius: 10px; overflow: auto; text-align: justify}
+
+.descri-txt::-webkit-scrollbar{background: #eee; width: 2px!important; border: none}
+
+.descri-txt::-webkit-scrollbar-thumb{background: var(--bordd-2)!important; border: 1px solid transparent;}

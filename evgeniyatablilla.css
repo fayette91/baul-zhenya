@@ -1,0 +1,49 @@
+:root{
+  --backd-1: #ededed;
+  --backd-2: #efefef;
+  --backd-3: #ebebeb;
+  --bordd-1: #d7d5d5;
+  --bordd-2: #ccc;
+  --bordd-3: #bbb;
+  --txtd-0: #aaa;
+  --txtd-1: #444;
+  --txtd-2: #555;
+  --txtd-3: #777;
+  --backn-2: #191919;
+  --backn-1: #151515;
+  --backn-3: #101010;
+  --bordn-0: #191919;
+  --bordn-1: #2c2c2c;
+  --bordn-2: #222;
+  --bordn-3: #333;
+  --txtn-1: #ccc;
+  --txtn-2: #aaa;
+  --txtn-3: #888;
+  --g3: #6F628A;
+  --g10: #B88A99;
+  --colorr: #DBC7FF;  
+}
+
+.evg-tb-bx {width: 530px; height: auto; margin: auto; outline: 1px solid var(--bordd-3); border: 20px solid var(--backd-3); position: relative; overflow: hidden; background: var(--g3); background: linear-gradient(to bottom, var(--colorr) 0%, var(--g3) 100%);}
+
+.evg-tb-tit {width: 400px; height: 100px; margin: 0px 0px 0px 50px; font-family: bodoni moda sc; font-size: 40px; line-height: 80%; background: var(--backd-2); padding: 40px; font-weight: bold; color: var(--g3)}
+
+.evg-tb-tit span {color: var(--bordd-2);}
+
+.evg-tb-txt {width: 400px; height: auto; margin: 0px 0px 0px 50px; background: var(--backd-2); padding: 40px; text-align: justify; font-family: montserrat; font-size: 13px; line-height: 150%; border-top: 1px solid gainsboro; color: #111; font-weight: 400}
+
+.evg-tb-datos {width: auto; height: auto; margin: -45px 0px 0px 80px; position: absolute; background: var(--backd-2); padding: 10px; text-align: center; font-family: montserrat; font-weight: 600; color: #555; text-transform: uppercase; font-size: 8px; letter-spacing: 1px}
+
+.evg-tb-datos i {font-size: 12px; color: var(--g3)}
+
+.evg-tb-txt b {color: var(--g3)}
+
+.evg-tb-bx {--g3: var(); --colorr: var()}
+
+body.night .evg-tb-bx {outline: 1px solid var(--bordn-3); border: 20px solid var(--backn-2);}
+
+body.night .evg-tb-tit {background: var(--backn-3)}
+
+body.night .evg-tb-datos {background: var(--backn-3); color: #555}
+
+body.night .evg-tb-txt {background: var(--backn-3); border-top: #222; color: #bbb}

@@ -1,0 +1,54 @@
+:root{
+  --backd-1: #ededed;
+  --backd-2: #efefef;
+  --backd-3: #ebebeb;
+  --bordd-1: #d7d5d5;
+  --bordd-2: #ccc;
+  --bordd-3: #bbb;
+  --txtd-0: #aaa;
+  --txtd-1: #444;
+  --txtd-2: #555;
+  --txtd-3: #777;
+  --backn-2: #191919;
+  --backn-1: #151515;
+  --backn-3: #101010;
+  --bordn-0: #191919;
+  --bordn-1: #2c2c2c;
+  --bordn-2: #222;
+  --bordn-3: #333;
+  --txtn-1: #ccc;
+  --txtn-2: #aaa;
+  --txtn-3: #888;
+  --g3: #6F628A;
+  --g10: #B88A99;
+  --colorr: #DBC7FF;  
+}
+
+.evg-v-bx {width: 880px; height: 500px; margin: auto; position: relative; background: var(--g3); background: linear-gradient(to bottom left, var(--colorr) 0%, var(--g3) 100%); outline: 1px solid var(--colorr); outline-offset: 10px; overflow: hidden}
+
+.evg-v-circles {width: 150px; height: 460px; margin: 0px; padding: 20px}
+
+.evg-v-circles img {width: 100px; height: 100px; margin: 10px; border-radius: 100%; border: 10px solid #eee; outline: 1px solid var(--g3); outline-offset: 2px; margin-top: 15px; border-bottom: 10px solid var(--colorr)}
+
+.evg-v-imguno {width: 450px; height: 500px; margin: -500px 0px 0px 180px; position: absolute; background: url(https://i.postimg.cc/nrycXXnW/B7s_AJDM.jpg); background-size: 100%; filter: grayscale(0) brightness(40%); transition: all ease-in-out 0.7s}
+
+.evg-v-icons {width: 185px; height: 160px; margin: -480px 0px 0px 653px; position: absolute; background: #eee; padding: 10px; border-radius: 20px 20px 20px 20px; outline: 1px solid var(--colorr); outline-offset: 2px; display: flex; flex-wrap: wrap}
+
+.evg-v-datos {width: 185px; height: 237px; margin: -280px 0px 0px 653px; position: absolute; background: #eee; padding: 10px; border-radius: 20px 20px 20px 20px; outline: 1px solid var(--colorr); outline-offset: 2px}
+
+.evg-v-name {width: 320px; height: auto; margin: -120px 0px 0px 200px; position: absolute; color: #eee; font-family: bodoni moda sc; font-size: 40px; font-weight: bold; line-height: 80%}
+
+.evg-v-name span {color: var(--colorr); font-style: italic}
+
+.name-line {width: 200px; height: 10px; margin: -40px 0px 0px 200px; position: absolute; background: var(--g3)}
+
+.evg-icon {width: 30px; height: 30px; margin: auto; font-size: 30px; padding: 10px; margin-top: 2px; background: #e8e8e8; border-radius: 100%; margin-top: 15px; outline: 1px solid var(--colorr)}
+
+.evg-icon a {text-decoration: none; color: var(--g3)!important}
+
+.evg-datouno {width: auto; height: auto; margin: auto; margin-top: 10px; font-family: ballet; font-size: 20px; font-weight: bold; color: var(--g3); margin-left: 5px}
+
+.evg-datodos {width: auto; height: 20px; margin: auto; font-family: bodoni moda sc; font-size: 10px; background: #e1e1e1; padding: 5px; color: #111; border-radius: 0px 20px 20px 0px; font-weight: 500}
+
+.evg-v-frase {width: auto; height: auto; margin: -470px 0px 0px 290px; position: absolute; font-family: ballet; color: #eee; font-weight: 500; font-size: 30px}
+
